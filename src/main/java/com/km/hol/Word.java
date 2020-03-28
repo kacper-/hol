@@ -8,4 +8,12 @@ class Word {
         this.dutch = dutch;
         this.polish = polish;
     }
+
+    public String getDutch() {
+        return dutch;
+    }
+
+    public String getPolish() {
+        return polish;
+    }
 }
