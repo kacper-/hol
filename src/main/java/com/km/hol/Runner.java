@@ -16,17 +16,34 @@ public class Runner implements Runnable {
     @Override
     public void run() {
         Word word;
+        String s[];
         try {
             while (true) {
                 word = getRandomWord();
-                frame.show(word.getDutch(), "");
+                s = getWords(word);
+                frame.show(s[0], "");
                 Thread.sleep(DELAY);
-                frame.show(word.getDutch(), word.getPolish());
+                frame.show(s[0], s[1]);
                 Thread.sleep(DISPLAY);
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    private String[] getWords(Word word) {
+        String from, to;
+        String s[];
+        if (ThreadLocalRandom.current().nextBoolean()) {
+            s = word.getDutch().split(",");
+            from = s[ThreadLocalRandom.current().nextInt(s.length)];
+            to = word.getPolish();
+        } else {
+            s = word.getPolish().split(",");
+            from = s[ThreadLocalRandom.current().nextInt(s.length)];
+            to = word.getDutch();
+        }
+        return new String[]{from, to};
     }
 
     private Word getRandomWord() {
