@@ -1,0 +1,6 @@
+
+# Default ignored files
+/*.xml
+/*.iml
+target
+/libraries/*
