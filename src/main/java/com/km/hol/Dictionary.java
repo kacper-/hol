@@ -15,7 +15,7 @@ public class Dictionary {
     }
 
     private void load() {
-        words.add(new Word("aan", "do, włączone"));
+        words.add(new Word("aan", "na, włączone"));
         words.add(new Word("aanbod", "oferta"));
         words.add(new Word("aangeven", "wskazać"));
         words.add(new Word("aanraken", "dotknij"));
@@ -43,7 +43,7 @@ public class Dictionary {
         words.add(new Word("als", "jak"));
         words.add(new Word("alsjeblieft", "proszę"));
         words.add(new Word("altijd", "zawsze"));
-        words.add(new Word("ander", "inne"));
+        words.add(new Word("ander", "inny, drugi"));
         words.add(new Word("anders", "różne"));
         words.add(new Word("angst", "strach"));
         words.add(new Word("antwoord", ""));
@@ -169,6 +169,7 @@ public class Dictionary {
         words.add(new Word("deken", "kołdra"));
         words.add(new Word("deksel", "pokrywa"));
         words.add(new Word("delen", "dzielić się"));
+		words.add(new Word("denken", "myśleć"));
         words.add(new Word("derde", "trzeci"));
         words.add(new Word("deze", "ci, te"));
         words.add(new Word("dichtbij", "blisko"));
@@ -220,6 +221,7 @@ public class Dictionary {
         words.add(new Word("en", "i"));
         words.add(new Word("enkele", "kostka (noga)"));
         words.add(new Word("enthousiast", "entuzjastyczny"));
+		words.add(new Word("er", "tam"));
         words.add(new Word("erg", "bardzo"));
         words.add(new Word("eten", "jeść"));
         words.add(new Word("even", "parzysty"));
@@ -240,6 +242,7 @@ public class Dictionary {
         words.add(new Word("fruit", "owoc"));
         words.add(new Word("gaaf", "doskonały"));
         words.add(new Word("gaan", "iść"));
+		words.add(new Word("gaatje", "dziura"));
         words.add(new Word("gat", "dziura"));
         words.add(new Word("gebeuren", "dziać się"));
         words.add(new Word("gebeurtenis", "zdarzenie"));
@@ -320,6 +323,8 @@ public class Dictionary {
         words.add(new Word("hebben", "mieć"));
         words.add(new Word("heel", "cały"));
         words.add(new Word("heet", "gorący, ostry"));
+		words.add(new Word("heg", "żywopłot"));
+		words.add(new Word("hek", "płot"));
         words.add(new Word("helder", "czysty, jasny"));
         words.add(new Word("helft", "połowa"));
         words.add(new Word("help", "pomagać"));
@@ -331,7 +336,7 @@ public class Dictionary {
         words.add(new Word("hert", "jeleń"));
         words.add(new Word("het", "to, ono"));
         words.add(new Word("heuvel", "pagórek"));
-        words.add(new Word("hier", "tu"));
+        words.add(new Word("hier", "tu, tutaj"));
         words.add(new Word("hij", "on"));
         words.add(new Word("hobby", "hobby"));
         words.add(new Word("hoe", "jak"));
@@ -382,7 +387,7 @@ public class Dictionary {
         words.add(new Word("kado", "prezent"));
         words.add(new Word("kamer", "pokój"));
         words.add(new Word("kans", "możliwość, szansa"));
-        words.add(new Word("kant", "bok"));
+        words.add(new Word("kant", "bok, róg"));
         words.add(new Word("kantoor", "biuro, kancelaria"));
         words.add(new Word("kapot", "zepsuty, uszkodzony"));
         words.add(new Word("kast", "szafa"));
@@ -625,6 +630,7 @@ public class Dictionary {
         words.add(new Word("paard", "koń"));
         words.add(new Word("pad", "ścieżka, szlak"));
         words.add(new Word("pagina", "strona"));
+		words.add(new Word("paleis", "pałac"));
         words.add(new Word("pan", "patelnia"));
         words.add(new Word("papa", "tata"));
         words.add(new Word("papier", "papier"));
@@ -693,6 +699,7 @@ public class Dictionary {
         words.add(new Word("restaurant", "restauracja"));
         words.add(new Word("resultaat", "wynik"));
         words.add(new Word("richting", "kierunek"));
+		words.add(new Word("ridder", "rycerz"));
         words.add(new Word("rijk", "bogaty, obfity"));
         words.add(new Word("rijst", "ryż"));
         words.add(new Word("rijzen", "rosnąć"));
@@ -887,6 +894,7 @@ public class Dictionary {
         words.add(new Word("vertellen", "opowiadać"));
         words.add(new Word("vertrekken", "odjechać, wyjechać"));
         words.add(new Word("vertrouwen", "ufać"));
+		words.add(new Word("verveelde", "znudzony"));
         words.add(new Word("verwachten", "oczekiwać"));
         words.add(new Word("verwijderen", "pozbyć się"));
         words.add(new Word("verzamelen", "gromadzić, zbierać"));
@@ -984,6 +992,7 @@ public class Dictionary {
         words.add(new Word("wolf", "wilk"));
         words.add(new Word("wolk", "chmura"));
         words.add(new Word("wonder", "cud"));
+		words.add(new Word("wonen", "mieszkać"));
         words.add(new Word("woord", "słowo"));
         words.add(new Word("woud", "las"));
         words.add(new Word("wreed", "okrutny"));
@@ -1001,10 +1010,11 @@ public class Dictionary {
         words.add(new Word("zes", "sześć"));
         words.add(new Word("zetten", "dać"));
         words.add(new Word("zeven", "siedem"));
+		words.add(new Word("zich", "się"));
         words.add(new Word("ziek", "chory"));
         words.add(new Word("ziekenhuis", "szpital"));
         words.add(new Word("ziel", "dusza"));
-        words.add(new Word("zien", "widzień"));
+        words.add(new Word("zien", "widzieć"));
         words.add(new Word("zij", "ona"));
         words.add(new Word("zijn", "być"));
         words.add(new Word("zilver", "srebro"));
