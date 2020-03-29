@@ -278,7 +278,7 @@ public class Dictionary {
         words.add(new Word("geven", "dawać"));
         words.add(new Word("gevolg", "skutek, rezultat"));
         words.add(new Word("gewicht", "waga, ciężar"));
-        words.add(new Word("gewoon", "normalny"));
+        words.add(new Word("gewoon", "normalny, po prostu"));
         words.add(new Word("gezicht", "wzrok, twarz"));
         words.add(new Word("gezond", "zdrowy"));
         words.add(new Word("gif", "jad"));

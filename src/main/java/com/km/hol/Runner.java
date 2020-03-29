@@ -34,13 +34,13 @@ public class Runner implements Runnable {
     private String[] getWords(Word word) {
         String from, to;
         String s[];
-        if (ThreadLocalRandom.current().nextBoolean()) {
+        if (frame.getLang() == Lang.NL) {
             s = word.getDutch().split(",");
-            from = s[ThreadLocalRandom.current().nextInt(s.length)];
+            from = s[ThreadLocalRandom.current().nextInt(s.length)].trim();
             to = word.getPolish();
         } else {
             s = word.getPolish().split(",");
-            from = s[ThreadLocalRandom.current().nextInt(s.length)];
+            from = s[ThreadLocalRandom.current().nextInt(s.length)].trim();
             to = word.getDutch();
         }
         return new String[]{from, to};
