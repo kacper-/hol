@@ -94,7 +94,7 @@ public class Dictionary {
         words.add(new Word("bezoek", "odwiedziny"));
         words.add(new Word("bibliotheek", "biblioteka"));
         words.add(new Word("bier", "piwo"));
-        words.add(new Word("bij", "pszczoła"));
+        words.add(new Word("bij", "pszczoła, przy"));
         words.add(new Word("bijna", "prawie"));
         words.add(new Word("bijten", "ugryźć"));
         words.add(new Word("bijvoorbeeld", "na przykład"));
@@ -171,6 +171,7 @@ public class Dictionary {
         words.add(new Word("delen", "dzielić się"));
 		words.add(new Word("denken", "myśleć"));
         words.add(new Word("derde", "trzeci"));
+		words.add(new Word("deur", "drzwi"));
         words.add(new Word("deze", "ci, te"));
         words.add(new Word("dichtbij", "blisko"));
         words.add(new Word("dienen", "służyć"));
@@ -244,7 +245,7 @@ public class Dictionary {
         words.add(new Word("gaan", "iść"));
 		words.add(new Word("gaatje", "dziura"));
         words.add(new Word("gat", "dziura"));
-        words.add(new Word("gebeuren", "dziać się"));
+        words.add(new Word("gebeuren", "dziać się, wydarzenia"));
         words.add(new Word("gebeurtenis", "zdarzenie"));
         words.add(new Word("gebied", "obszar"));
         words.add(new Word("geboorte", "narodziny"));
@@ -285,6 +286,7 @@ public class Dictionary {
         words.add(new Word("gezicht", "wzrok, twarz"));
         words.add(new Word("gezond", "zdrowy"));
         words.add(new Word("gif", "jad"));
+		words.add(new Word("gillen", "krzyczeć"));
         words.add(new Word("gisteren", "wczoraj"));
         words.add(new Word("glad", "śliski, gładki"));
         words.add(new Word("glas", "szkło"));
@@ -327,7 +329,8 @@ public class Dictionary {
 		words.add(new Word("hek", "płot"));
         words.add(new Word("helder", "czysty, jasny"));
         words.add(new Word("helft", "połowa"));
-        words.add(new Word("help", "pomagać"));
+		words.add(new Word("help", "pomoc"));
+        words.add(new Word("helpen", "pomagać"));
         words.add(new Word("hem", "jego"));
         words.add(new Word("hemel", "niebo"));
         words.add(new Word("hen", "kura"));
@@ -435,6 +438,7 @@ public class Dictionary {
         words.add(new Word("kracht", "siła"));
         words.add(new Word("krant", "gazeta"));
         words.add(new Word("krijgen", "dostać, zyskać"));
+		words.add(new Word("kruipen", "czołgać się"));
         words.add(new Word("kruis", "krzyż"));
         words.add(new Word("kuil", "dół, jama"));
         words.add(new Word("kunnen", "móc"));
@@ -769,6 +773,7 @@ public class Dictionary {
         words.add(new Word("start", "start"));
         words.add(new Word("station", "stacja"));
         words.add(new Word("steen", "kamień"));
+		words.add(new Word("steken", "wpychać"));
         words.add(new Word("stelen", "kraść"));
         words.add(new Word("stem", "głos"));
         words.add(new Word("stempel", "pieczątka"));
@@ -835,6 +840,7 @@ public class Dictionary {
         words.add(new Word("tweede", "drugi"));
         words.add(new Word("u", "pan, pani"));
         words.add(new Word("uit", "wyłączony, z"));
+		words.add(new Word("uitgaan", "wychodzić"));
         words.add(new Word("uitleggen", "wyjaśnić"));
         words.add(new Word("uitnodigen", "zapraszać"));
         words.add(new Word("uitvinden", "wynaleźć"));
@@ -963,7 +969,7 @@ public class Dictionary {
         words.add(new Word("water", "woda"));
         words.add(new Word("we", "my"));
         words.add(new Word("week", "tydzień"));
-        words.add(new Word("weer", "pogoda"));
+        words.add(new Word("weer", "znowu, pogoda"));
         words.add(new Word("weg", "droga, sposób"));
         words.add(new Word("wel", "ewentualnie"));
         words.add(new Word("welke", "odsunąć się"));
