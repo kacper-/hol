@@ -1000,6 +1000,7 @@ public class Dictionary {
         words.add(new Word("wonder", "cud"));
 		words.add(new Word("wonen", "mieszkać"));
         words.add(new Word("woord", "słowo"));
+		words.add(new Word("worden", "stać się"));
         words.add(new Word("woud", "las"));
         words.add(new Word("wreed", "okrutny"));
         words.add(new Word("zaak", "sprawa"));
