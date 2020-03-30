@@ -1,15 +1,25 @@
 package com.km.hol;
 
+import com.vaadin.ui.Button;
+import com.vaadin.ui.Label;
+import com.vaadin.ui.UI;
+
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Runner implements Runnable {
     private static int DELAY = 3000;
     private static int DISPLAY = 2000;
-    private Frame frame;
+    private UI ui;
+    private Label m;
+    private Label h;
+    private Button b;
     private Dictionary dictionary;
 
-    Runner(Frame frame) {
-        this.frame = frame;
+    Runner(UI ui, Label m, Label h, Button b) {
+        this.ui = ui;
+        this.m = m;
+        this.h = h;
+        this.b = b;
         dictionary = new Dictionary();
     }
 
@@ -21,9 +31,16 @@ public class Runner implements Runnable {
             while (true) {
                 word = getRandomWord();
                 s = getWords(word);
-                frame.show(s[0], "");
+                final String mw = s[0];
+                final String hw = s[1];
+                ui.access(() -> {
+                    m.setCaption(mw);
+                    h.setCaption("");
+                });
                 Thread.sleep(DELAY);
-                frame.show(s[0], s[1]);
+                ui.access(() -> {
+                    h.setCaption(hw);
+                });
                 Thread.sleep(DISPLAY);
             }
         } catch (InterruptedException e) {
@@ -34,7 +51,7 @@ public class Runner implements Runnable {
     private String[] getWords(Word word) {
         String from, to;
         String s[];
-        if (frame.getLang() == Lang.NL) {
+        if (b.getCaption().equals(Lang.NL.name())) {
             s = word.getDutch().split(",");
             from = s[ThreadLocalRandom.current().nextInt(s.length)].trim();
             to = word.getPolish();

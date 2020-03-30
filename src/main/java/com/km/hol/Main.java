@@ -17,6 +17,6 @@ public class Main {
             frame.setSize(new Dimension(W, H));
             frame.setLocation((Toolkit.getDefaultToolkit().getScreenSize().width - W) / 2, (Toolkit.getDefaultToolkit().getScreenSize().height - H) / 2);
         });
-        new Thread(new Runner(frame)).start();
+        //new Thread(new Runner(frame)).start();
     }
 }
